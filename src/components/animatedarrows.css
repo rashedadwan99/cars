@@ -1,0 +1,25 @@
+.animated-arrows {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 50px;
+}
+
+.animated-arrows svg {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--dark-gray);
+
+  animation: twoArrows 1s alternate infinite;
+}
+
+@keyframes twoArrows {
+  0% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(5px);
+  }
+}

@@ -1,0 +1,53 @@
+.advantages-section {
+  display: flex;
+  justify-content: center;
+  height: 30em;
+}
+
+.advantages-right-section {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 50px 30px;
+}
+
+.advantages-first-title {
+  font-size: 10px;
+  margin: 0;
+}
+
+.advantages-second-title {
+  font-size: 25px;
+}
+
+.advantages-info {
+  font-size: 12px;
+
+  text-transform: none;
+
+}
+
+.car-city-animation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+
+
+
+@media (max-width:768px) {
+  .advantages-section {
+    height: 50em;
+  }
+
+  .advantages-right-section {
+    padding: 50px 0;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,70 @@
+.company-section {
+  background-color: var(--background-color);
+
+  padding: 50px 0;
+  position: relative;
+  height: 300px;
+}
+
+.company-description {
+  padding: 25px 0;
+}
+
+.company-section p {
+  text-align: center;
+  font-style: italic;
+  color: var(--white);
+}
+
+.company-section span {
+  color: var(--dark-gray);
+  text-align: center;
+  display: inline-block;
+
+  width: 100%;
+}
+
+.company-logos {
+  width: 5%;
+  opacity: 0.6;
+}
+
+.company-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: relative;
+
+}
+
+.company-logos {
+  align-self: start;
+  width: 80px;
+}
+
+.ferrari-image {
+  width: 25rem;
+  position: relative;
+  bottom: 50%;
+}
+
+@media (max-width:768px) {
+  .company-logos {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .ferrari-image {
+    width: 20rem;
+  }
+
+  .company-description {
+    padding-bottom: 70px;
+    font-size: 12px;
+  }
+
+
+}

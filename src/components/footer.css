@@ -1,0 +1,66 @@
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 100px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer h3 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.footer span {
+  color: var(--dark-gray);
+}
+
+.footer-first-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.footer-first-bottom p {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+
+}
+
+.latest-vehicles {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.latest-vehicles svg {
+  margin-right: 15px;
+}
+
+.icon-news-content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 35px;
+
+}
+
+.icon-news-content svg {
+  font-size: 20px;
+}
+
+.news-content {
+  border-bottom: 1px solid var(--dark-gray);
+  margin-left: 10px;
+  color: var(--dark-gray);
+}
+
+.footer .col-12 {
+  margin-bottom: 15px;
+}
+
+.latest-news-footer .icon-news-content:last-child .news-content:last-child {
+  border-bottom: 0;
+}

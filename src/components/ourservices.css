@@ -1,0 +1,45 @@
+.our-service-card,
+.card-container,
+.icon-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container {
+  margin-bottom: 50px;
+}
+
+.our-service-card {
+  width: 50%;
+}
+
+.icon-section {
+  border-radius: 100%;
+  padding: 25px;
+  border: 1px solid var(--black);
+  color: var(--background-color);
+  font-size: 40px;
+}
+
+.offer-section {
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 15px;
+  text-align: center;
+}
+
+.description-section {
+  font-size: 12px;
+  color: rgb(163, 163, 163);
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width:992px) {
+  .services-card-container {
+    display: initial;
+  }
+
+}

@@ -1,0 +1,21 @@
+.footer-info .title {
+  text-transform: uppercase;
+  /* padding-left: 15px; */
+  position: relative;
+}
+
+.footer-info .title::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  background-color: var(--background-color);
+  height: 25px;
+  position: absolute;
+  top: 0px;
+}
+
+.footer-info .title span {
+  margin-left: 15px;
+  color: var(--white);
+
+}

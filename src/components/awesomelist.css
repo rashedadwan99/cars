@@ -1,0 +1,44 @@
+.advantages-list {
+  width: 80%;
+}
+
+ul.awesome-list {
+  padding-left: 0;
+}
+
+.awesome-list-item {
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 5px;
+  background-color: rgb(238, 232, 232);
+}
+
+.number {
+  transform-origin: top;
+  transform: skew(-25deg);
+  color: var(--dark-gray);
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  font-style: normal;
+  padding: 5px;
+
+}
+
+.number span {
+  transform: skew(25deg);
+  font-size: 12px;
+}
+
+.advantages-list .content {
+  padding: 5px;
+  font-size: 12px;
+}
+
+@media (max-width:768px) {
+  .advantages-list {
+    width: 100%;
+  }
+}

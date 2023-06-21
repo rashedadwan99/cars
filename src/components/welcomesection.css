@@ -1,0 +1,40 @@
+.welcome-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.welcome-section p:first-child {
+  font-size: 50px;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+
+.button-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.button-section button:first-child {
+  padding-right: 1px !important;
+}
+
+.button-section button {
+
+  font-size: 14px !important;
+  padding-right: 15px !important;
+  margin: 5px;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.button-section button:first-child {
+  background-color: var(--white) !important;
+  border: 0;
+  color: var(--black) !important;
+}

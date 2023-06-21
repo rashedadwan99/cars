@@ -1,0 +1,29 @@
+.common-button {
+  border-radius: 20px !important;
+  text-transform: capitalize;
+  display: flex !important;
+  justify-content: space-between;
+
+}
+
+.btn-light {
+  background-color: initial !important;
+  color: var(--btn-light-font-color) !important;
+  border-color: rgb(203, 148, 255);
+
+}
+
+.btn-light {
+  background-color: initial !important;
+  color: var(--btn-light-font-color) !important;
+  border-color: rgb(203, 148, 255);
+
+}
+
+
+
+@media (max-width:600px) {
+  .common-button {
+    padding: 10px !important;
+  }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Estonia&family=Montagu+Slab:wght@500;700&family=Nunito:wght@200&family=Playfair+Display&family=Poppins:wght@300&family=Road+Rage&family=Roboto+Mono:wght@100&family=Roboto:wght@900&family=Tilt+Prism&family=Work+Sans:wght@500&display=swap');
+
+:root {
+  --dark-gray: #adadad;
+  --light-gray: #d3d3d3;
+  --background-color: #6e12eb;
+  --blue: #0055ff;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif !important;
+  overflow-x: hidden;
+
+}
+
+
+.top-section {
+
+  background-color: var(--background-color);
+  color: var(--white) !important;
+}
+
+:root {
+  --btn-light-font-color: "var(--white)"
+}
