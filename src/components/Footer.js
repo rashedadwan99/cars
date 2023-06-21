@@ -4,7 +4,7 @@ import "./footer.css";
 import FooterFirst from "./FooterFirst";
 import FooterInfo from "./common/FooterInfo";
 import CarList from "./CarList";
-import LatestNewsFooter from "../LatestNewsFooter";
+import LatestNewsFooter from "./LatestNewsFooter";
 import ContactUsFooter from "./ContactUsFooter";
 import Triangleborder from "./common/Triangleborder";
 function Footer() {
