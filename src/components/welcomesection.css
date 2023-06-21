@@ -38,3 +38,9 @@
   border: 0;
   color: var(--black) !important;
 }
+
+@media (max-width:600px) {
+  .welcome-section {
+    padding-top: 10px;
+  }
+}
